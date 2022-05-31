@@ -4,9 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/user/AndroidStudioProjects/Instagram/app/src/main/res/drawable/ic_more.xml" value="0.1055" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Instagram/app/src/main/res/drawable/shape_stories_avatar.xml" value="0.112" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Instagram/app/src/main/res/drawable/stories_reply.xml" value="0.112" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Instagram/app/src/main/res/layout/activity_main.xml" value="0.16" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Instagram/app/src/main/res/layout/fragment_main.xml" value="0.22" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/Instagram/app/src/main/res/layout/item_posts.xml" value="0.22" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Instagram/app/src/main/res/layout/fragment_stories.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Instagram/app/src/main/res/layout/item_posts.xml" value="0.25" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Instagram/app/src/main/res/layout/item_stories.xml" value="0.33" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Instagram/app/src/main/res/menu/navigation_menu.xml" value="0.2359375" />
       </map>

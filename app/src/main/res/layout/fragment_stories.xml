@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E1E1E"
+    tools:context=".ui.StoriesFragment">
+
+    <ImageView
+        android:id="@+id/img_stories_avatar"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/shape_stories_avatar"
+        android:backgroundTint="@color/white" />
+
+    <TextView
+        android:id="@+id/Story_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/img_stories_avatar"
+        android:layout_alignBottom="@id/img_stories_avatar"
+        android:layout_toRightOf="@id/img_stories_avatar"
+        android:gravity="center"
+        android:text="@string/Username"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/img_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/img_stories_avatar"
+        android:layout_alignBottom="@id/img_stories_avatar"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="14dp"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/ic_more_vert_24" />
+
+    <EditText
+        android:id="@+id/et_story_reply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_toStartOf="@+id/img_story_like"
+        android:background="@drawable/stories_reply"
+        android:hint="Write message"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="12dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/img_story_like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/et_story_reply"
+        android:layout_alignBottom="@+id/et_story_reply"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="15dp"
+        android:layout_toStartOf="@+id/img_story_send"
+        android:src="@drawable/likes"
+        app:tint="@color/white" />
+
+    <ImageView
+        android:id="@+id/img_story_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/et_story_reply"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="28dp"
+        android:layout_toStartOf="@+id/img_more"
+        android:layout_toRightOf="@+id/img_story_like"
+        android:src="@drawable/icon_direct"
+        app:tint="@color/white" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/img_story_img"
+        android:layout_above="@+id/et_story_reply"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="14dp"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

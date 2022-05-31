@@ -1,4 +1,4 @@
-package com.example.instagram;
+package com.example.instagram.models;
 
 public class User {
     public String userName;
